@@ -41,6 +41,7 @@ services:
       - ../config/barong.env
     volumes:
       - ../config/barong:/opt/barong/config:ro
+      - ../app/barong/app:/home/app/app
     expose:
       - "8001"
     labels:
