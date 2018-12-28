@@ -12,7 +12,7 @@
 - key:               grin-floonet
   name:              Grin Floonet
   client:            grin
-  server:            http://10.8.0.1:25003
+  server:            http://10.8.0.1:13413
   height:            8500
   min_confirmations: 10
   explorer:
